@@ -1,0 +1,241 @@
+
+/* ----- SECTIONS ----- */
+section {
+    padding: 30px 0;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: rgb(182, 164, 4);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: rgb(182, 164, 4);
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/test.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.hero-box {
+    position: absolute;
+    /* width: 1140px; */
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS */
+/* ----------------------------------------------- */
+
+.section-how {
+    /* margin-top: 30px; */
+    background-color: rgb(226, 226, 226);
+}
+
+.why-columns{
+    margin-top: 30px;
+}
+
+
+/* ----------------------------------------------- */
+/* FEATURES */
+/* ----------------------------------------------- */
+
+.section-features {
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.feature {
+    margin-bottom: 5px;
+}
+
+
+/* ----------------------------------------------- */
+/* WHY GAMEATHLONS */
+/* ----------------------------------------------- */
+
+.section-why {
+    margin-top: 30px;
+    background-color: rgb(226, 226, 226);
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px 50px 30px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 40%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.why-columns{
+    margin-top: 30px;
+}
+
+/* ----------------------------------------------- */
+/* SKILLS */
+/* ----------------------------------------------- */
+
+.section-skills {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.skills-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.skills-showcase li {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.skill-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.skill-photo img {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.skill-photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    color: transparent;
+}
+
+.skill-photo:hover {
+    color: transparent;
+}
+
+.centered {
+    font-size: 110%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events:none;
+}
+
+/* ----------------------------------------------- */
+/* PLAY IS ESSENTIAL TO WELL BEING */
+/* ----------------------------------------------- */
+
+.section-play {
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.jp-quote {
+    background-color: rgb(226, 226, 226);
+}
+
+.reference {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1;
+}
+
+.ref-text {
+    font-size: 75%;
+    font-weight: 300;
+    color: #555;
+}
+
+hr.ref-break{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    background-color: #555;
+    height: 1px;
+}
+
+/* ----------------------------------------------- */
+/* About Us */
+/* ----------------------------------------------- */
+
+.section-about-us {
+    margin-top: 30px;
+    background-color: rgb(226, 226, 226);
+}

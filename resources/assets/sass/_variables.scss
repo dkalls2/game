@@ -1,0 +1,41 @@
+
+// Body
+$body-background-color: whitesmoke;
+    //this needs to be changed from $body-bg to $body-background because $body-bg is for bootstrap.
+
+
+// Typography
+// $font-family-sans-serif: "Raleway", sans-serif;
+$font-family-sans-serif: 'Lato', 'Arial', sans-serif;
+$family-sans-serif: 'Lato', 'Arial', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+//colors
+$primary: rgb(182, 164, 4);
+// $skyblue-invert: findColorInvert(skyblue);
+// $primary-invert: $skyblue-invert;
+
+$info: rgb(182, 164, 4);
+// $info-invert: $skyblue-invert;
+
+
+// Link colors
+    $link: rgb(182, 164, 4);
+    // $link-invert: $blue-invert !default
+    // $link-visited: $purple !default
+
+    // $link-hover: $grey-darker !default
+    // $link-hover-border: $grey-light !default
+
+    // $link-focus: $grey-darker;
+    $link-focus-border: rgb(182, 164, 4);
+
+    // $link-active: $grey-darker !default
+    // $link-active-border: $grey-dark !default
+
+//Text color
+// $text: pink;
+// $text-invert: yellow;
+// $text-light: green;
+// $text-strong: purple;
